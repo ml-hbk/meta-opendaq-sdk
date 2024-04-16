@@ -12,7 +12,7 @@ DEPENDS += "${@bb.utils.contains('HOSTTOOLS', 'mono', '', 'mono-native', d)}"
 inherit cmake
 
 SRC_URI = "\
-    git://github.com/openDAQ/openDAQ.git;protocol=https;name=opendaq-sdk;branch=main \
+    git://github.com/openDAQ/openDAQ.git;protocol=https;name=opendaq-sdk;branch=release/3.0 \
     git://github.com/openDAQ/opc-ua-companion-spec.git;protocol=https;name=tmsspec;branch=master;destsuffix=deps/src/daqspec \
     git://github.com/hbkworld/opc-ua-specs.git;name=daqhbkspec;protocol=https;destsuffix=deps/src/daqhbkspec;branch=main \
 "
@@ -20,7 +20,7 @@ SRC_URI = "\
 LIC_FILES_CHKSUM += "file://LICENSE;md5=98b4c298fafe3a9dc30f957028ce3224"
 
 SRCREV_FORMAT = "opendaq-sdk_tmsspec"
-SRCREV_opendaq-sdk = "248b8d5b0f760bff4564e84eaa222f188f3d4599"
+SRCREV_opendaq-sdk = "f1412def6a5a72291a7779b31b55c7ab29da724e"
 SRCREV_tmsspec = "9f7306e702e3cf698ff7fcabe421ef4c9b77139d"
 SRCREV_daqhbkspec = "cd7e6033eb74b7f1725edbf2035f0e4c6fa2cc96"
 
