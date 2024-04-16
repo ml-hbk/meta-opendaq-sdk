@@ -2,10 +2,10 @@ SUMMARY = "open-source formatting library for C++"
 DESCRIPTION = "{fmt} is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams."
 HOMEPAGE = "https://fmt.dev"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE.rst;md5=af88d758f75f3c5c48a967501f24384b"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=b9257785fc4f3803a4b71b76c1412729"
 
-SRC_URI += "git://github.com/fmtlib/fmt"
-SRCREV = "4fe0b11195b7cd71f39253c44db2c9dddf6b82d4"
+SRC_URI += "git://github.com/fmtlib/fmt;protocol=git;branch=10.x;"
+SRCREV = "e69e5f977d458f2650bb346dadf2ad30c5320281"
 
 S = "${WORKDIR}/git"
 

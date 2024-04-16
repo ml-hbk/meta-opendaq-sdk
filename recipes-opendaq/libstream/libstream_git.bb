@@ -12,7 +12,7 @@ SRC_URI += "git://github.com/openDAQ/libstream.git;protocol=https;branch=main"
 
 LIC_FILES_CHKSUM += "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
-SRCREV = "c30615cfda20004b052f34bed18a5b4e7e284cd8"
+SRCREV = "c9b73b20052533808bb7ba3fa34e672267cc6149"
 S = "${WORKDIR}/git"
 
 EXTRA_OECMAKE += "\
