@@ -15,7 +15,7 @@ LIC_FILES_CHKSUM += "\
     file://LICENSE.txt;md5=93cbd52bfc499580f50db5762ac5fe31 \
 "
 
-SRCREV = "5e40d6b6c4c9e5d6ebf72e0d98253a242e7fe317"
+SRCREV = "5e50d22d6b600a69b69733780de7f22a1947d3cf"
 S = "${WORKDIR}/git"
 
 EXTRA_OECMAKE += "\
