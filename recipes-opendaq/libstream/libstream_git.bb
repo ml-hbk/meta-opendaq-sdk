@@ -3,16 +3,16 @@ AUTHOR              = "openDAQ d.o.o."
 HOMEPAGE            = "https://opendaq.com/"
 SECTION             = "libs"
 LICENSE             = "Apache-2.0"
-PV                  = "1.0.0+git${SRCPV}"
+PV                  = "1.0.2+git${SRCPV}"
 DEPENDS             = "boost"
 
 inherit cmake
 
-SRC_URI += "git://github.com/openDAQ/libstream.git;protocol=https;branch=main"
+SRC_URI += "git://github.com/openDAQ/libstream.git;protocol=https;branch=fix/boost-fetching"
 
 LIC_FILES_CHKSUM += "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
-SRCREV = "c9b73b20052533808bb7ba3fa34e672267cc6149"
+SRCREV = "e545095d8a7b43b02ad6fbb8e04f9ba1367179e8"
 S = "${WORKDIR}/git"
 
 EXTRA_OECMAKE += "\
