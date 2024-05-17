@@ -3,7 +3,7 @@ AUTHOR              = "openDAQ d.o.o."
 HOMEPAGE            = "https://opendaq.com/"
 SECTION             = "openDAQ"
 LICENSE             = "Apache-2.0"
-PV                  = "2.1.0+git${SRCPV}"
+PV                  = "3.0.0+git${SRCPV}"
 DEPENDS             = "boost date fmt mjansson-mdns spdlog taskflow tsl-ordered-map xxhash"
 
 # if mono is not in HOSTTOOLS, add mono-native as a dependency; see README.md at the top of this layer
@@ -20,7 +20,7 @@ SRC_URI = "\
 LIC_FILES_CHKSUM += "file://LICENSE;md5=98b4c298fafe3a9dc30f957028ce3224"
 
 SRCREV_FORMAT = "opendaq-sdk_tmsspec"
-SRCREV_opendaq-sdk = "f1412def6a5a72291a7779b31b55c7ab29da724e"
+SRCREV_opendaq-sdk = "f1ea38432e35302252c1f242944e72c3a866e782"
 SRCREV_tmsspec = "9f7306e702e3cf698ff7fcabe421ef4c9b77139d"
 SRCREV_daqhbkspec = "cd7e6033eb74b7f1725edbf2035f0e4c6fa2cc96"
 

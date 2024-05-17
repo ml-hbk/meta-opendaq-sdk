@@ -8,11 +8,11 @@ DEPENDS             = "boost"
 
 inherit cmake
 
-SRC_URI += "git://github.com/openDAQ/libstream.git;protocol=https;branch=fix/boost-fetching"
+SRC_URI += "git://github.com/openDAQ/libstream.git;protocol=https;branch=main"
 
 LIC_FILES_CHKSUM += "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
-SRCREV = "e545095d8a7b43b02ad6fbb8e04f9ba1367179e8"
+SRCREV = "651e5e0571f7c64f498a4c4e8e4e3c11d555a064"
 S = "${WORKDIR}/git"
 
 EXTRA_OECMAKE += "\
