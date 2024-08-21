@@ -20,11 +20,13 @@ SRC_URI = "\
 LIC_FILES_CHKSUM += "file://LICENSE;md5=98b4c298fafe3a9dc30f957028ce3224"
 
 SRCREV_FORMAT = "opendaq-sdk_tmsspec"
-SRCREV_opendaq-sdk = "3ab4ba40490d9910a94c0d37cedcb018f906af8b"
+SRCREV_opendaq-sdk = "f377135aff7d83ea980adc380bc2d04474a425c2"
 SRCREV_tmsspec = "9f7306e702e3cf698ff7fcabe421ef4c9b77139d"
 SRCREV_daqhbkspec = "cd7e6033eb74b7f1725edbf2035f0e4c6fa2cc96"
 
 S = "${WORKDIR}/git"
+
+PARALLEL_MAKE = "-j 6"
 
 EXTRA_OECMAKE += "\
     -DFETCHCONTENT_FULLY_DISCONNECTED=ON \
