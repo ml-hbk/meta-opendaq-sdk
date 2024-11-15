@@ -10,7 +10,7 @@ DEPENDS             = "boost date fmt mjansson-mdns spdlog taskflow tsl-ordered-
 DEPENDS += "${@bb.utils.contains('HOSTTOOLS', 'mono', '', 'mono-native', d)}"
 
 # which openDAQ SDK Git branch to use
-OPENDAQ_SDK_BRANCH ?= "release/3.2"
+OPENDAQ_SDK_BRANCH ?= "release/3.10"
 
 inherit cmake
 
