@@ -3,7 +3,7 @@ AUTHOR              = "openDAQ d.o.o."
 HOMEPAGE            = "https://opendaq.com/"
 SECTION             = "openDAQ"
 LICENSE             = "Apache-2.0"
-PV                  = "3.2.6+git${SRCPV}"
+PV                  = "3.10.0+git${SRCPV}"
 DEPENDS             = "boost date fmt mjansson-mdns spdlog taskflow tsl-ordered-map xxhash"
 
 # if mono is not in HOSTTOOLS, add mono-native as a dependency; see README.md at the top of this layer
