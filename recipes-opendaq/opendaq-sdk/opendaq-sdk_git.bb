@@ -24,7 +24,7 @@ LIC_FILES_CHKSUM += "file://LICENSE;md5=98b4c298fafe3a9dc30f957028ce3224"
 
 SRCREV_FORMAT = "opendaq-sdk_tmsspec"
 # commit from release/3.10
-SRCREV_opendaq-sdk = "1a944348789ad1a1fd58f78dd58e49284b188031"
+SRCREV_opendaq-sdk = "84bdddb3cf8d1badb34c9c4ab2b557ac66b14785"
 SRCREV_tmsspec = "9f7306e702e3cf698ff7fcabe421ef4c9b77139d"
 SRCREV_daqhbkspec = "cd7e6033eb74b7f1725edbf2035f0e4c6fa2cc96"
 
